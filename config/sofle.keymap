@@ -12,7 +12,7 @@
 &kp TAB     &kp Q    &kp W     &kp E      &kp R         &kp T        &kp DOWN   &kp Y   &kp U             &kp I      &kp O           &kp P      &kp GRAVE
 &kp CAPS    &kp A    &kp S     &kp D      &kp F         &kp G        &kp LEFT   &kp H   &kp J             &kp K      &kp L           &kp SEMI   &kp APOS
 &kp LSHFT   &kp Z    &kp X     &kp C      &kp V         &kp B        &kp RIGHT  &kp N   &kp M             &kp COMMA  &kp DOT         &kp FSLH   &kp RSHFT
-&kp K_MUTE  &kp DEL  &kp LALT  &kp LCTRL  &kp LEFT_WIN  &kp ENTER    &kp ENTER  &tog 1  &kp LANG_HANGEUL  &kp SPACE  &kp LANGUAGE_2  &kp EQUAL
+&kp K_MUTE  &kp DEL  &kp LALT  &kp LCTRL  &kp LEFT_WIN  &kp ENTER    &kp ENTER  &to 1   &kp LANG_HANGEUL  &kp SPACE  &kp LANGUAGE_2  &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -24,7 +24,7 @@
 &kp TAB    &trans  &trans  &trans  &trans  &trans    &kp DOWN   &trans          &msc SCRL_UP    &trans           &kp LBKT  &kp RBKT   &kp MINUS
 &trans     &trans  &trans  &trans  &trans  &trans    &kp LEFT   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans    &trans     &trans
 &kp LSHFT  &trans  &trans  &trans  &trans  &trans    &kp RIGHT  &trans          &trans          &trans           &trans    &kp RSHFT  &kp RSHFT
-&trans     &trans  &trans  &trans  &trans  &trans    &trans     &tog 0          &trans          &trans           &trans    &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans     &none           &trans          &trans           &trans    &trans
             >;
         };
     };
